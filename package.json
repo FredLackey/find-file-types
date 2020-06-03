@@ -1,0 +1,50 @@
+{
+  "name": "find-file-types",
+  "version": "0.0.0",
+  "description": "Locate file types in folder path.",
+  "main": "src/index.js",
+  "preferGlobal": true,
+  "bin": {
+    "find-file-types": "./src/command.js"
+  },
+  "scripts": {
+    "lint": "eslint ./src",
+    "lint:fix": "eslint ./src --fix src/**/*.js",
+    "markdown": "node ./src/command.js --markdown",
+    "markdown:cli": "node ./src/command.js --markdown-cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FredLackey/find-file-types.git"
+  },
+  "keywords": [
+    "files",
+    "types",
+    "find"
+  ],
+  "author": {
+    "name": "Fred Lackey",
+    "email": "fred.lackey@gmail.com",
+    "url": "http://www.fredlackey.com"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/FredLackey/find-file-types/issues"
+  },
+  "homepage": "https://github.com/FredLackey/find-file-types#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^2.5.0",
+    "eslint-plugin-standard": "^4.0.1"
+  },
+  "dependencies": {
+    "yargs": "^15.3.1"
+  }
+}
