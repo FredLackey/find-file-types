@@ -1,6 +1,6 @@
 {
   "name": "find-file-types",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Locate file types in folder path.",
   "main": "src/index.js",
   "preferGlobal": true,
