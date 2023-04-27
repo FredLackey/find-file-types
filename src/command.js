@@ -29,7 +29,7 @@ const main = async () => {
     console.error(`Error: ${err}`);
   });
 
-  if (_.arrays.count(counts) <= 0) {
+  if (counts.length === 0) {
     console.info('No results');
     return;
   }

@@ -8,63 +8,43 @@
       "type": "node",
       "request": "launch",
       "name": "CLI 00 - Markdown",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
+      "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}/src/command.js",
-      "args": [
-        "--cli-markdown"
-      ]
-    },    
+      "args": ["--cli-markdown"]
+    },
     {
       "type": "node",
       "request": "launch",
       "name": "CLI 01 - Empty",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
+      "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}/src/command.js",
-      "args": [
-      ]
+      "args": []
     },
     {
       "type": "node",
       "request": "launch",
       "name": "CLI 02 - Source Dir",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
+      "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}/src/command.js",
-      "args": [
-        "--source",
-        "/Volumes/MPHD01/Multimedia/",    
-      ]
+      "args": ["--source", "/Volumes/Photos/Import/"]
     },
     {
       "type": "node",
       "request": "launch",
       "name": "CLI 03 - Count",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
+      "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}/src/command.js",
-      "args": [
-        "--source",
-        "/Volumes/MPHD01/Multimedia/",
-        "--count"
-      ]
+      "args": ["--source", "/Volumes/Photos/Import/", "--count"]
     },
     {
       "type": "node",
       "request": "launch",
       "name": "CLI 04 - Single Folder",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
+      "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}/src/command.js",
       "args": [
         "--source",
-        "/Volumes/MPHD01/Multimedia/",
+        "/Volumes/Photos/Import/",
         "--count",
         "--recursive",
         "false"
@@ -74,13 +54,11 @@
       "type": "node",
       "request": "launch",
       "name": "CLI 05 - No Blanks",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
+      "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}/src/command.js",
       "args": [
         "--source",
-        "/Volumes/MPHD01/Multimedia/",
+        "/Volumes/Photos/Import/",
         "--count",
         "--allow-blank",
         "false"

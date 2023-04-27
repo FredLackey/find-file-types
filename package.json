@@ -1,21 +1,21 @@
 {
-  "name": "find-file-types",
-  "version": "0.0.1",
-  "description": "Locate file types in folder path.",
-  "main": "src/index.js",
+  "name"        : "find-file-types",
+  "version"     : "0.0.2",
+  "description" : "Locate file types in folder path.",
+  "main"        : "src/index.js",
   "preferGlobal": true,
-  "bin": {
+  "bin"         : {
     "find-file-types": "./src/command.js"
   },
   "scripts": {
-    "lint": "eslint ./src",
-    "lint:fix": "eslint ./src --fix src/**/*.js",
-    "markdown": "node ./src/command.js --markdown",
+    "lint"        : "eslint ./src",
+    "lint:fix"    : "eslint ./src --fix src/**/*.js",
+    "markdown"    : "node ./src/command.js --markdown",
     "markdown:cli": "node ./src/command.js --markdown-cli"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FredLackey/find-file-types.git"
+    "url" : "git+https://github.com/FredLackey/find-file-types.git"
   },
   "keywords": [
     "files",
@@ -23,28 +23,28 @@
     "find"
   ],
   "author": {
-    "name": "Fred Lackey",
+    "name" : "Fred Lackey",
     "email": "fred.lackey@gmail.com",
-    "url": "http://www.fredlackey.com"
+    "url"  : "http://www.fredlackey.com"
   },
   "license": "Apache-2.0",
-  "bugs": {
+  "bugs"   : {
     "url": "https://github.com/FredLackey/find-file-types/issues"
   },
-  "homepage": "https://github.com/FredLackey/find-file-types#readme",
+  "homepage"       : "https://github.com/FredLackey/find-file-types#readme",
   "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb": "^18.1.0",
-    "eslint-config-standard": "^14.1.1",
-    "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "^7.20.0",
-    "eslint-plugin-react-hooks": "^2.5.0",
-    "eslint-plugin-standard": "^4.0.1"
+    "eslint"                   : "^8.39.0",
+    "eslint-config-airbnb"     : "^19.0.4",
+    "eslint-config-standard"   : "^17.0.0",
+    "eslint-plugin-import"     : "^2.27.5",
+    "eslint-plugin-jsx-a11y"   : "^6.7.1",
+    "eslint-plugin-node"       : "^11.1.0",
+    "eslint-plugin-promise"    : "^6.1.1",
+    "eslint-plugin-react"      : "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-standard"   : "^4.1.0"
   },
   "dependencies": {
-    "yargs": "^15.3.1"
+    "yargs": "^17.7.2"
   }
 }
